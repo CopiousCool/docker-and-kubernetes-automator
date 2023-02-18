@@ -44,18 +44,27 @@ check_images()
 
 
 Checking the health of a Docker image:
+
 check_health('nginx')
 
+
 Checking the uptime of a Docker image:
+
 check_uptime('nginx')
 
+
 Checking for any running Docker images with outdated software:
+
 check_outdated()
 
+
 Deploying a Kubernetes deployment using a YAML file:
+
 deploy_kubernetes('deployment.yaml')
 
+
 Deleting a Kubernetes deployment by name:
+
 delete_kubernetes('nginx-deployment')
 
 
